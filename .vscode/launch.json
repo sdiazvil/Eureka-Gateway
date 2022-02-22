@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaApplication<eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.microservicio.eureka.eureka.EurekaApplication",
+            "projectName": "eureka",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BienvenidaApplication<bienvenida>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.bienvenida.bienvenida.BienvenidaApplication",
+            "projectName": "bienvenida",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioGatewayApplication<microservicio-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.microservicio.gateway.MicroservicioGatewayApplication",
+            "projectName": "microservicio-gateway",
+            "args": ""
+        }
+    ]
+}
