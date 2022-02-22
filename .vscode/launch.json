@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RestApiApplication",
+            "request": "launch",
+            "mainClass": "com.restapi.rest.RestApiApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-EurekaApplication<eureka>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -28,6 +34,16 @@
             "console": "internalConsole",
             "mainClass": "com.microservicio.gateway.MicroservicioGatewayApplication",
             "projectName": "microservicio-gateway",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RestApiApplication<RestAPI>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.restapi.rest.RestApiApplication",
+            "projectName": "RestAPI",
             "args": ""
         }
     ]
